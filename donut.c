@@ -1,3 +1,7 @@
+#include<iostream>
+#include<cmath>
+#include<unistd.h>
+#include<cstring>
 int main()
 {
     float A = 0, B = 0;
@@ -43,7 +47,7 @@ int main()
             A += 0.00002;
             B += 0.00002;
         }
-        usleep(3);
+        usleep(5);
     }
     return 0;
 }
